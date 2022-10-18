@@ -69,7 +69,6 @@ const loto = {
             number = Math.round(Math.random() * 89 + 1);
         }
         while (loto.tirages.includes(number));
-        console.log(number);
         loto.displayTirages(number);
     },
     
@@ -186,8 +185,7 @@ const loto = {
     
 }
 
-document.addEventListener("DOMContentLoaded", loto.init);
-
+loto.init();
 
 // TODO
 // gestion du remplissage du tableau du dealer
