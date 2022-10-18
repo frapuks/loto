@@ -1,0 +1,44 @@
+.containerFlex {
+    display: flex;
+    height: 100vh;
+}
+
+.containerJoueur {
+    background-color: lightblue;
+    width: 45%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.containerCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+    width: 10%;
+    margin: 1em;
+    text-align: center;
+}
+
+.containerGrille {
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.cellule {
+    border: 1px solid black;
+    width: 11%;
+    min-height: 3em;
+    box-sizing: border-box;
+}
+
+.celluleCheck {
+    background-color: violet;
+    font-size: 0;
+}
+
+.vide {
+    background-color: blue;
+}
