@@ -5,7 +5,7 @@ const loto = {
     itv5 : "",
 
     joueur : {
-        nom : "Mon cochon",
+        nom : "Player 2",
         board : [],
         numeroCochés : [],
         score : 0,
